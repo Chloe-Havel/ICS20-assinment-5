@@ -29,14 +29,14 @@
                         <mxPoint x="460" y="530" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="&lt;font style=&quot;font-size: 9px&quot;&gt;while&lt;br&gt;counter &amp;lt;&lt;br&gt;secondNumber&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="15" value="&lt;font style=&quot;font-size: 9px&quot;&gt;while&lt;br&gt;counter &amp;lt;&lt;br&gt;loopnumber&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="300" y="450" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="23">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="answer = firstNumber +&lt;br&gt;answer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="580" width="100" height="50" as="geometry"/>
+                <mxCell id="17" value="answer =&amp;nbsp;&lt;br&gt;answer +&amp;nbsp;((4) / (1+(2 * counter))) * (-1) ** counter" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="570" width="110" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" style="edgeStyle=none;html=1;" edge="1" parent="1" target="12">
                     <mxGeometry relative="1" as="geometry">
@@ -76,7 +76,7 @@
                     <mxGeometry x="395" y="510" width="30" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="print&lt;br&gt;answer" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="530" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="410" y="530" width="140" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
