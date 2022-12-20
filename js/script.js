@@ -25,9 +25,9 @@ function myButtonClicked() {
   const loopNumber = parseInt(document.getElementById("loop-number").value)
 
   while (counter < loopNumber) {
-    answer = answer + ((4) / (1+(2 * counter))) * (-1) ** counter
+    answer = answer + (4 / (1 + 2 * counter)) * (-1) ** counter
   }
-  
+
   // output
   document.getElementById("answer").innerHTML =
     " Your answer is " + " = " + answer
