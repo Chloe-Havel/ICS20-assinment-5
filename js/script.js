@@ -10,8 +10,8 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-PWA-Test-1/sw.js", {
-    scope: "/ICS2O-PWA-Test-1/",
+  navigator.serviceWorker.register("/ICS2O-Unit-5-06/sw.js", {
+    scope: "/ICS2O-Unit-5-06/",
   })
 }
 
@@ -19,5 +19,17 @@ if (navigator.serviceWorker) {
  * This function displays an alert.
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  let counter = 0
+  let answer = 0
+
+  const firstNumber = parseInt(document.getElementById("first").value)
+  const secondNumber = parseInt(document.getElementById("second").value)
+
+  while (counter < secondNumber) {
+    answer = firstNumber + answer
+    counter++
+  }
+  // output
+  document.getElementById("answer").innerHTML =
+    firstNumber + " x " + secondNumber + " = " + answer
 }
