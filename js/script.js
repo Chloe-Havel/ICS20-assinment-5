@@ -22,14 +22,12 @@ function myButtonClicked() {
   let counter = 0
   let answer = 0
 
-  const firstNumber = parseInt(document.getElementById("first").value)
-  const secondNumber = parseInt(document.getElementById("second").value)
+  const loopNumber = parseInt(document.getElementById("loop-number").value)
 
-  while (counter < secondNumber) {
-    answer = firstNumber + answer
-    counter++
+  while (counter < loopNumber) {
+    answer = answer ((4) / (1+(2 * counter))) * (-1) ** counter
   }
   // output
   document.getElementById("answer").innerHTML =
-    firstNumber + " x " + secondNumber + " = " + answer
+    " Your answer is " + " = " + answer
 }
