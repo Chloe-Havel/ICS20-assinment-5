@@ -26,6 +26,7 @@ function myButtonClicked() {
 
   while (counter < loopNumber) {
     answer = answer + (4 / (1 + 2 * counter)) * (-1) ** counter
+    counter++
   }
 
   // output
